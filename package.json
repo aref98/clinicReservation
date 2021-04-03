@@ -1,0 +1,47 @@
+{
+  "name": "clinicreservation",
+  "version": "1.0.0",
+  "description": "Cloud Computing firest project. (microservice project)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Aref Talebzadeh (Linkdin)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "persian-date": "^1.1.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.1.1",
+    "content-disposition": "^0.5.3",
+    "cors": "^2.8.5",
+    "csurf": "^1.10.0",
+    "ejs": "^2.6.1",
+    "elasticemail": "^0.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.16.1",
+    "express-validator": "^6.1.1",
+    "gentelella": "^1.4.0",
+    "helmet": "^3.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.8",
+    "multer": "^1.4.2",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^6.2.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemailer-sparkpost-transport": "^2.2.0",
+    "pdfkit": "^0.10.0",
+    "pug": "^2.0.3",
+    "sequelize": "^5.0.0-beta.11",
+    "stripe": "^7.4.0"
+  }
+}
